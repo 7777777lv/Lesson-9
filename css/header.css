@@ -1,0 +1,123 @@
+header {
+  background-image: url(../images/Rectangle.svg);
+  background-color: #093d4d;
+}
+.navigations a {
+  color: #a1b5bb;
+}
+.navigations {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.nav-menus-button {
+  width: 140px;
+  height: 58px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  background-color: #145e76;
+  color: white;
+}
+.nav-link button {
+  margin-left: 80px;
+}
+.ham {
+  display: none;
+  margin-right: 30px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hey-im-musa {
+  margin-bottom: 40px;
+  background-color: #094556;
+  border: none;
+  width: 195px;
+  height: 65px;
+  border-radius: 30px;
+  color: white;
+  font-family: "Schoolbell", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+.text {
+  margin-top: 253px;
+}
+.content1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: white;
+}
+.content2 {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #849499;
+}
+.text-link {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-top: 50px;
+}
+.links {
+  margin-left: 70px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #b6cdd5;
+}
+.text-link a:hover {
+  color: white;
+  background-color: #ffa63a;
+  width: 137px;
+  height: 61px;
+  border-radius: 25px;
+}
+.img-of-bratan {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 136px;
+  margin-bottom: 248px;
+}
+
+@media (max-width: 880px) {
+  .nav-menus {
+    display: none;
+  }
+  .ham {
+    display: inline;
+  }
+}
+
